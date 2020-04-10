@@ -1,0 +1,34 @@
+import numpy as np
+import random 
+#1
+a=np.zeros(10)
+print(a)
+print('\n')
+#2
+a[4]=1
+print(a)
+print('\n')
+#3
+b=np.arange(10,50)
+print(b)
+print('\n')
+#4
+c=np.arange(9).reshape(3,3)
+print(c)
+print('\n')
+#5
+d=np.random.random((10,10))
+dmin,dmax=d.min(),d.max()
+print(dmin,dmax)
+print('\n')
+#6
+f=np.ones((10,10))
+f[1:-1,1:-1]=0
+print(f)
+print('\n')
+#7
+a=np.ones((5,3))
+b=np.ones((3,2))
+c=np.dot(a,b)
+print(c)
+print('\n')
